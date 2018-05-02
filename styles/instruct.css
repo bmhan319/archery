@@ -1,0 +1,59 @@
+/*Site Color Values
+LightGreen - #D6e8b8
+Green - #94C842
+Brown - #523E33
+Grey - #94877E
+*/
+
+main {
+  background:#94877E;
+}
+
+div.row {
+  width: 100%;
+  margin: auto;
+    }
+
+div.row:after {
+  content: ""; /* If this is removed, the rows will collapse on itself */
+  display: block;
+  clear: both;
+    }
+
+.row .col {
+  background:#94877E;
+  border:0;
+  margin:0;
+  padding:0;
+  border-style: solid;
+}
+
+.span_1_of_12{
+  color:#94877E;
+}
+
+.span_11_of_12 h3 {
+  margin:2rem 0rem 2rem 1rem;
+}
+
+
+.span_3_of_12 img{
+  width:100%;
+  padding:0 0 5rem 0rem;
+}
+
+.dot{
+  visibility:hidden;
+}
+  
+.span_4_of_12 h3{
+  vertical-align: top;
+  padding:0 0 0 1rem;
+  margin:0;
+  color:black;
+}
+.span_4_of_12 p{
+  padding:0;
+  margin:1rem 0 5rem 1rem;
+  color:black;
+}
